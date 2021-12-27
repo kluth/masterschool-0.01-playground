@@ -1,3 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Coda+Caption:800);
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(255, 0, 0, 0.5), rgba(130, 130, 130, 1));
+}
+
+article {
+    border: 1px dashed black;
+    box-shadow: rgba(130, 130, 130, 1);
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    
+}
+
+article > header > h2 {
+    font-family: 'Coda Caption';
+}
+
+code {
+    display: block;
+    background-color: rgba(130, 130, 130, 0.4);
+    padding: 2vw;
+}
+
 /*
   TEMPLATE
 */
