@@ -8,3 +8,50 @@
 /*  div {
      display: flex;
  } */
+
+ .pomodoro {
+     position: absolute;
+ }
+
+ .timer-background {
+     width: 250px;
+     height: 250px;
+     background: linear-gradient(0deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1), rgba(255, 0, 0, 1) );
+     border-radius: 150px;
+     position: relative;
+     animation: rotate-timer 1s ease-in-out infinite;
+ }
+
+ .timer-foreground {
+     width: 240px;
+     height: 240px;
+     background-color: black;
+     border-radius: 150px;
+     position: absolute;
+     transform: translate(-50%, -50%);
+     left: 50%;
+     top: 50%;
+ }
+
+ .timer-value {
+     position: absolute;
+     transform: translate(-50%, -50%);
+     left: 50%;
+     top: 50%;
+     color: aliceblue;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: xx-large;
+ }
+
+ article > footer {
+     position: relative;
+ }
+
+ @keyframes rotate-timer {
+     from {
+         transform: rotate(0deg);
+     }
+     to {
+         transform: rotate(360deg);
+     }
+ }
