@@ -1,0 +1,14 @@
+{
+  "name": "masterschool-0.01-playground",
+  "version": "1.0.0",
+  "main": "index.html",
+  "repository": "https://github.com/kluth/masterschool-0.01-playground.git",
+  "author": "Matthias Kluth <kluthmatthias@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "serve": "^13.0.2"
+  },
+  "scripts": {
+    "serve": "serve ."
+  }
+}
